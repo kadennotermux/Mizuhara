@@ -12,11 +12,11 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['']
-global.packname = 'Mizuhara'
-global.prefix= ['=']
-global.author = ''
-global.sessionName = 'arus'
+global.owner = ['254792893310']
+global.packname = 'WAMOCHO'
+global.prefix= ['=','','#','!','.','@']
+global.author = 'GingerBreadSketchy'
+global.sessionName = 'session'
 global.mess = {
     success: '*Here you go...*',
     admin: '*Oops!! sorry dude this is only for admins*',
@@ -25,7 +25,7 @@ global.mess = {
     group: '*Leave me here alone please...*',
     wait: '*Loading... please wait*',
 }
-global.thumb = fs.readFileSync('./src/info.jpeg')
+global.thumb = fs.readFileSync('./src/info.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
